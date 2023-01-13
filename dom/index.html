@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="candidate"/>
+    <button onclick="addText()" class="buttonClass">Add text</button>
+    <button onclick="removeText()" class="buttonClass">Remove text</button>
+    <ul id="list"></ul>
+    <script>
+//  add function
+function addText(){
+const a = document.getElementById("list");
+            let candidate = document.getElementById("candidate");
+            let li = document.createElement("li");
+            li.setAttribute('id', candidate.value);
+            li.appendChild(document.createTextNode(candidate.value));
+            a.appendChild(li);
+        }
+//   remove function
+  function removeText(){
+   const a =document.getElementById("list");
+   let candidate = document.getElementById("candidate");
+   let item = document.getElementById(candidate.value);
+   a.removeChild(item)
+  }
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#candidate{
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: black;
+}
+.buttonClass{
+    background-color: green;
+    color: white;
+    box-sizing: border-box;
+}
+button:hover{
+    cursor: pointer;
+}

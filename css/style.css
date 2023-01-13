@@ -1,0 +1,76 @@
+body{
+    background-image: url(/images/images\(16\));
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: scroll;
+}
+p{
+    width: 970px;
+}
+p.dotted{border-style: dotted;}
+p.dashed{border-style: dashed;}
+p.solid{border-style:solid;}
+p.double{border-style: double;}
+p.groove{border-style:groove;}
+p.ridge{border-style: ridge;}
+p.inset{border-style: inset;}
+p.outset{border-style: outset;} 
+p.none{border-style: none;}
+p.hidden{border-style:hidden;}
+p.border{
+   border-left: 6px solid red;
+   background-color: lightgrey;
+}
+
+div{
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+div.box{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+/* ol{
+    background:#ff9999;
+    padding: 20px;
+}
+
+ul{
+    background: #3399ff;
+    padding: 20px;
+
+}
+ol li{
+    background:#ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+ul li{
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+} */
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
+li a:hover{
+    background-color: #555;
+    color: white;
+}
