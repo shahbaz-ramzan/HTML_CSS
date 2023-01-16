@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <h1>hello</h1>
+    <div style="background-color: green; color: aliceblue; box-sizing: border-box;
+    font-size: 25px;">
+        <p id="demo"></p>
+    </div>
+    
+    <script>
+        //JavaScript program to convert fahrenheit to celsius
+let fahrenheit = parseFloat(prompt("Enter the temperature in fahrenheit: "))
+ 
+let celsius = (fahrenheit - 32) / 1.8;
+ 
+//console.log(`${fahrenheit} degree Fahrenheit is equal to ${celsius} degree Celsius`);
+document.getElementById("demo").innerHTML=celsius
+    </script>
+</body>
+</html>
